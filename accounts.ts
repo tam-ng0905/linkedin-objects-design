@@ -22,8 +22,6 @@ class Address{
         this.country = country
     }
 }
-
-
 class Account{
     id: string;
     password: string;
@@ -39,8 +37,6 @@ class Account{
 
     }
 }
-
-
 class Person{
     name: string;
     address: string;
@@ -48,8 +44,6 @@ class Person{
     phone: string;
     account: string;
 }
-
-
 class Profile{
     summary: string;
     experiences: string[];
@@ -97,7 +91,7 @@ class Profile{
 
 
 }
-class Member{
+export class Member{
     start_date: number;
     headline: string;
     photo: string[];
@@ -134,5 +128,4 @@ class Member{
 
     }
 }
-
 
